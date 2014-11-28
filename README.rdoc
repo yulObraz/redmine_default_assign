@@ -14,7 +14,7 @@ A copy of the plugin can be downloaded from {GitHub}[http://github.com/rchady/re
 == Installation and Setup
 
 1. Follow the Redmine plugin installation steps at the {Redmine Wiki}[http://www.redmine.org/wiki/redmine/Plugins].
-2. Make sure you did the rake db:migrate_plugins step from above.
+2. Make sure you did the rake redmine:plugins:migrate step from above.
 3. Restart your Redmine web servers (e.g. mongrel, thin, mod_rails)
 
 == Special Note
